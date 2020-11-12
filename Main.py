@@ -21,6 +21,20 @@ def index():
     return "H"
     # return render_template('index.html')
 
+@app.route('/test1')
+def test_1():
+    mkd = '''
+    # header
+    ## header2
+    [picture](http://www.example.com)
+    * 1
+    * 2
+    * 3
+    **bold**
+    '''
+
+    return render_template('test_1.html', mkd=mkd)
+
 if __name__ == '__main__':
     app.run(debug=True)
 
