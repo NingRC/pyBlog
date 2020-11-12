@@ -14,4 +14,4 @@ pip install requirements.txt \
 
 
 ### 更新记录
-- 2020-11-12 创建静态网页
+- 2020-11-12 搭建Flask框架
