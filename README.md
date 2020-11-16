@@ -15,3 +15,4 @@ pip install requirements.txt \
 
 ### 更新记录
 - 2020-11-12 搭建Flask框架
+- 2020-11-16 添加Editor.md
